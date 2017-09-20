@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: 5c7bcaecf658f4242bc066864d7586cf
+timeCreated: 1505941411
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Branche
+    100002: Bras_D
+    100004: Bras_G
+    100006: c_Master
+    100008: Circle005
+    100010: Circle006
+    100012: Circle007
+    100014: Circle008
+    100016: Circle009
+    100018: Circle010
+    100020: Circle013
+    100022: Circle014
+    100024: Circle017
+    100026: Circle020
+    100028: Cuisse_D
+    100030: Cuisse_G
+    100032: Epaule_D
+    100034: Epaule_G
+    100036: feuille019
+    100038: feuille020
+    100040: feuille021
+    100042: Jambe_D
+    100044: Jambe_G
+    100046: Main_D
+    100048: Main_G
+    100050: P1_1
+    100052: P1_2
+    100054: P1_3
+    100056: P2_1
+    100058: P2_2
+    100060: P2_3
+    100062: P3_1
+    100064: P3_2
+    100066: P3_3
+    100068: Pied_D
+    100070: Pied_G
+    100072: Plantes
+    100074: //RootNode
+    100076: Pot
+    400000: Branche
+    400002: Bras_D
+    400004: Bras_G
+    400006: c_Master
+    400008: Circle005
+    400010: Circle006
+    400012: Circle007
+    400014: Circle008
+    400016: Circle009
+    400018: Circle010
+    400020: Circle013
+    400022: Circle014
+    400024: Circle017
+    400026: Circle020
+    400028: Cuisse_D
+    400030: Cuisse_G
+    400032: Epaule_D
+    400034: Epaule_G
+    400036: feuille019
+    400038: feuille020
+    400040: feuille021
+    400042: Jambe_D
+    400044: Jambe_G
+    400046: Main_D
+    400048: Main_G
+    400050: P1_1
+    400052: P1_2
+    400054: P1_3
+    400056: P2_1
+    400058: P2_2
+    400060: P2_3
+    400062: P3_1
+    400064: P3_2
+    400066: P3_3
+    400068: Pied_D
+    400070: Pied_G
+    400072: Plantes
+    400074: //RootNode
+    400076: Pot
+    2300000: Branche
+    2300002: feuille019
+    2300004: feuille020
+    2300006: feuille021
+    3300000: Branche
+    3300002: feuille019
+    3300004: feuille020
+    3300006: feuille021
+    4300000: Plantes
+    4300002: Branche
+    4300004: feuille021
+    4300006: feuille020
+    4300008: feuille019
+    7400000: plante@Idle
+    7400002: plante@walk
+    7400004: plante@attack
+    9500000: //RootNode
+    13700000: Plantes
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: plante@Idle
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: plante@walk
+      takeName: Take 001
+      firstFrame: 62
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: plante@attack
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
