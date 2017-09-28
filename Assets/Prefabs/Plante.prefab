@@ -142,6 +142,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4873719708219348}
   - component: {fileID: 95587105244260044}
+  - component: {fileID: 114569527053547136}
   m_Layer: 0
   m_Name: planteTest
   m_TagString: Untagged
@@ -528,6 +529,7 @@ GameObject:
   - component: {fileID: 4937451422091774}
   - component: {fileID: 33853477830395340}
   - component: {fileID: 23064816551668396}
+  - component: {fileID: 136073976734750510}
   m_Layer: 0
   m_Name: Branche
   m_TagString: Untagged
@@ -1288,7 +1290,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1330789000109298}
-  m_LocalRotation: {x: -0.0017440723, y: -0.70710254, z: 0.7071068, w: -0.0017438733}
+  m_LocalRotation: {x: -0.001744072, y: -0.70710254, z: 0.7071068, w: -0.001743873}
   m_LocalPosition: {x: -0.092441864, y: 0.003157234, z: -0.22518454}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_Children:
@@ -1600,13 +1602,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baab87dc30305714787b9d700fd424d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerIndex: 2
+  playerIndex: 1
   anim: {fileID: 95587105244260044}
   speed: 10
   turnSpeed: 400
   rb: {fileID: 54482977951515614}
   dust: {fileID: 198775258758196276}
   influence: 1
+  weapon: {fileID: 136073976734750510}
+--- !u!114 &114569527053547136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254031867247010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bac886cfb4b1741a71671523ebd3ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 114091246228400958}
+--- !u!136 &136073976734750510
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1636885753052708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.21
+  m_Height: 1.93
+  m_Direction: 2
+  m_Center: {x: 0.027543271, y: 0.00000018824673, z: 0.78}
 --- !u!136 &136257861606207080
 CapsuleCollider:
   m_ObjectHideFlags: 1
